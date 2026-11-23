@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kontak – RuangBelajar</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="wrap bar">
+        <a class="logo" href="index.html">📚 RuangBelajar</a>
+        <button id="burger" type="button" aria-label="Buka menu" aria-controls="main-nav" aria-expanded="false">☰</button>
+        <nav id="main-nav" aria-label="Navigasi utama">
+          <a href="index.html">Beranda</a>
+          <a href="tentang.html">Tentang</a>
+          <a href="materi.html">Materi &amp; Tips</a>
+          <a href="bank-soal.html">Bank Soal</a>
+          <a href="kontak.html">Kontak</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <h1>Kontak</h1>
+      <p>Punya saran atau pertanyaan? Isi formulir berikut. <i>(Formulir demo: data tidak dikirim.)</i></p>
+
+      <form id="kontak" novalidate>
+        <label for="nama">Nama</label>
+        <input id="nama" name="nama" autocomplete="name">
+        <div class="err" id="e-nama"></div>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email">
+        <div class="err" id="e-email"></div>
+
+        <label for="pesan">Pesan</label>
+        <textarea id="pesan" name="pesan" rows="4"></textarea>
+        <div class="err" id="e-pesan"></div>
+
+        <br>
+        <button class="btn" type="submit">Kirim</button>
+        <p class="ok" id="hasil"></p>
+      </form>
+
+      <p class="note">Kontak pengelola (email/Instagram kelompok) belum final dan akan ditambahkan.</p>
+    </main>
+
+    <footer>
+      <div class="wrap">© 2026 RuangBelajar – Kelompok 1 TMJ 1C PNJ · Versi progres sementara (belum final)</div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

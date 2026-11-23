@@ -1,0 +1,3 @@
+Taruh file PPT / soal di folder ini (.pptx / .pdf).
+Lalu daftarkan di bank-soal-data.js (petunjuk ada di bagian atas file itu).
+Contoh path: ppt/matematika-diskrit/nama-file.pptx
